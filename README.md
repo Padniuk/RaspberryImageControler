@@ -43,6 +43,7 @@ model.add(layers.Dense(10, activation='softmax'))
 ```
 In other way any other model can be used.
 > **MNIST** was used as database
+
 > Neural network was trained separately from the Raspberry board! 
 
 After training process all trained weights was saved into file with **.h5** extension. This file can be loaded to the root directory of the project or path to the file inside the code should be changed.
